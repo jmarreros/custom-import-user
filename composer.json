@@ -1,0 +1,19 @@
+{
+  "name": "jmarreros/custom-import-user",
+  "description": "Import data to a table from .csv file",
+  "autoload": {
+    "psr-4": {
+      "dcms\\customimport\\": "./"
+    },
+    "files": [
+      "helpers/general.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Jhon Marreros Guzmán",
+      "email": "admin@decodecms.com"
+    }
+  ],
+  "require": {}
+}
