@@ -1,3 +1,3 @@
 <div class="wrap">
-    <h1><?= mensaje(); ?></h1>
+    <h1>Hola Mundo</h1>
 </div>

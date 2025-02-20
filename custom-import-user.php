@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Import user data to a custom table in Database
+Plugin Name: Custom Import Users
 Plugin URI: https://decodecms.com
 Description: Plugins that import user data to a custom table, and map every user meta to fields of the table
 Version: 1.0
@@ -34,7 +34,7 @@ final class Loader {
 		define( 'DCMS_CUSTOMIMPORT_PATH', plugin_dir_path( __FILE__ ) );
 		define( 'DCMS_CUSTOMIMPORT_URL', plugin_dir_url( __FILE__ ) );
 		define( 'DCMS_CUSTOMIMPORT_BASE_NAME', plugin_basename( __FILE__ ) );
-		define( 'DCMS_CUSTOMIMPORT_SUBMENU', 'tools.php' );
+		define( 'DCMS_CUSTOMIMPORT_SUBMENU', 'customarea' );
 	}
 
 	// Load tex domain
